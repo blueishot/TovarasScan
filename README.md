@@ -1,6 +1,6 @@
 ![TovarasScan](https://github.com/blueishot/TovarasScan/blob/main/Imagens/header_thmb.png?raw=true)
 <h1 align="center">TovaraScans</h1>
-<p align="center">Um projetinho sobre criação de mock para fixar conhecimentos aprendidos, utilizando como base o fansub <a href="http://tovarascans.blogspot.com/"> TovaraScan <a>
+<p align="center">Um projetinho sobre criação de mock para fixar conhecimentos aprendidos, utilizando como base o fansub <a href="http://tovarascans.blogspot.com/"> TovaraScans <a>
   <h1 align="center"> Tavares </h1> 
 <p align="center"> <img src="https://github.com/blueishot/TovarasScan/blob/main/Imagens/PROFILE.jpg" width="250px"> </img> </p>
 <p align="center"> Matheus Tavares, também como conhecido como タバレス é o criador do fansub TovaraScans, com o objetivo de trazer mangás de terror que nunca tiveram projetos de tradução em cima ou projetos que foram abandonados no meio da tradução, atualmente Tavares é compositor, programador, tradutor, químico e amante de Evangelion
