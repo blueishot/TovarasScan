@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Samaritan;
+    src: url(../fonts/samarita.ttf);
+}
+
+body {
+    background-image: url(../Imagens/fundo+novo+blogger.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.tavaresHeader {
+    display: flex;
+    justify-content: center;
+    flex-direction: column ;
+    align-items: center;
+}
+
+.tavaresLogo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 15px;
+    width: 100%;
+
+}
+
+.logoSizes {
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.tavaresMenu {
+    background-color: #585858;
+    font-family: Samaritan;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+}
+
+.tavaresButtons {
+    color: white;
+    font-size: 50px;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.tavaresButtons:hover {
+    color: #bb0400;
+    text-shadow: 4px 4px 2px #610201;
+}
