@@ -8,6 +8,11 @@
     src: url(../fonts/samarita.ttf);
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url(https://fonts.google.com/specimen/Roboto+Mono?query=roboto);
+}
+
 body {
     background-image: url(../Imagens/fundo+novo+blogger.jpg);
     background-size: cover;
@@ -17,6 +22,12 @@ body {
 .container {
     display: flex;
     justify-content: center;
+    height: 100%;
+}
+
+.tavaresContent {
+    display: flex;
+    flex-direction: column;
 }
 
 .tavaresHeader {
@@ -59,10 +70,55 @@ body {
     padding: 5px;
     cursor: pointer;
     user-select: none;
+    transition: 0.5s;
+
 
 }
 
 .tavaresButtons:hover {
     color: #bb0400;
     text-shadow: 4px 4px 2px #610201;
+}
+
+.tavaresBody {
+    background-color: burlywood;
+    max-width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.tavaresFilter {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: #585858;
+    padding: 3px;
+}
+
+.tavaresMarcadores  {
+    font-size: 25px;
+    text-align: center;
+    border: #585858 solid 5px;
+    background-color: #585858;
+    font-family: Samaritan;
+    color: white;
+
+}
+
+.tavaresTagOptions {    
+    padding: 5px;
+    background-color: white;
+    border: grey 1px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: 5px;   
+    text-align: center;
+}
+
+.tavaresTagOptions:hover {
+    color: #bb0400;
+    text-shadow: #610201 3px 4px 3px;
+    background-color: black;
 }
